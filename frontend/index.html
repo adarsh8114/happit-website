@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happit - Premium Kids Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Happit</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')" class="active">Home</a></li>
+                <li><a href="#" onclick="showSection('categories')">Categories</a></li>
+                <li><a href="#" onclick="showSection('deals')">Deals</a></li>
+            </ul>
+            <div class="nav-icons">
+                <div class="search-icon">🔍</div>
+                <div class="cart-container">
+                    <div class="cart-icon">🛒</div>
+                    <div class="cart-badge">1</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="content-section active">
+        <div class="hero">
+            <h1>Discover Amazing Products<br>for Every Need</h1>
+            <p>Shop the latest trends and essentials with fast shipping and unbeatable prices.</p>
+            <a href="#" class="shop-now-btn" onclick="showSection('categories')">Shop Now →</a>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <p class="section-subtitle">Discover our most popular items and latest additions</p>
+            </div>
+
+            <div class="category-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Kids</button>
+                <button class="filter-btn">Outdoor</button>
+                <button class="filter-btn">Sports</button>
+                <button class="filter-btn">Toys</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">20% OFF</div>
+                        <div class="product-icon">🛴</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="rating-text">(248 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Kids 3-Wheel Foldable Scooter</h3>
+                        <p class="product-description">Premium wireless headphones with active noise cancellation and superior sound quality for an immersive experience.</p>
+                        <div class="product-price">$40.00</div>
+                        <button class="add-to-cart-btn">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-icon">🎮</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★☆</div>
+                            <div class="rating-text">(187 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Educational Gaming Console</h3>
+                        <p class="product-description">Experience breathtaking 4K resolution with this ultra HD smart TV. Built-in streaming apps included.</p>
+                        <div class="product-price">$80.99</div>
+                        <button class="add-to-cart-btn">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">SALE</div>
+                        <div class="product-icon">🧸</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="rating-text">(332 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Premium Teddy Bear</h3>
+                        <p class="product-description">Craft barista-quality coffee at home with this premium coffee maker featuring multiple brewing options.</p>
+                        <div class="product-price">$25.99</div>
+                        <button class="add-to-cart-btn">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-icon">🚲</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★☆</div>
+                            <div class="rating-text">(98 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Kids Balance Bike</h3>
+                        <p class="product-description">Elevate your professional wardrobe with this premium cotton blend shirt in various colors.</p>
+                        <div class="product-price">$65.99</div>
+                        <button class="add-to-cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Categories</h2>
+                <p class="section-subtitle">Explore our complete range of kids products</p>
+            </div>
+
+            <div class="category-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Scooters</button>
+                <button class="filter-btn">Bikes</button>
+                <button class="filter-btn">Toys</button>
+                <button class="filter-btn">Games</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">FEATURED</div>
+                        <div class="product-icon">🛴</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="rating-text">(248 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Kids 3-Wheel Foldable Scooter</h3>
+                        <p class="product-description">Safe, fun, and foldable scooter designed specifically for kids. Perfect for outdoor adventures and developing balance skills with 3-wheel stability design.</p>
+                        <div class="product-price">$40.00</div>
+                        <button class="add-to-cart-btn">Add to Cart 🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-icon">🎯</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★☆</div>
+                            <div class="rating-text">(156 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Coming Soon!</h3>
+                        <p class="product-description">More amazing kids products are coming soon. Stay tuned for exciting additions to our collection.</p>
+                        <div class="product-price">--</div>
+                        <button class="add-to-cart-btn" style="background: #94a3b8; cursor: not-allowed;">Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section id="deals" class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Special Deals</h2>
+                <p class="section-subtitle">Limited time offers you don't want to miss</p>
+            </div>
+
+            <div class="deals-banner">
+                <div class="deals-content">
+                    <h2 class="deals-title">🎉 Launch Special Offer!</h2>
+                    <p class="deals-subtitle">Get our premium Kids 3-Wheel Foldable Scooter at an incredible price</p>
+                    <div class="deal-highlight">
+                        <span class="original-price">$50.00</span>
+                        <span class="sale-price">$40.00</span>
+                    </div>
+                    <p>Save $10 on your first purchase! Limited time only.</p>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">20% OFF</div>
+                        <div class="product-icon">🛴</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="rating-text">(248 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Kids 3-Wheel Foldable Scooter</h3>
+                        <p class="product-description">✅ Launch Special Price<br>✅ Free Shipping Included<br>✅ 30-Day Money Back Guarantee<br>✅ 1-Year Warranty</p>
+                        <div class="product-price">
+                            <span style="text-decoration: line-through; color: #94a3b8; font-size: 1rem;">$50.00</span> 
+                            $40.00
+                        </div>
+                        <button class="add-to-cart-btn">Grab This Deal! 🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">COMBO</div>
+                        <div class="product-icon">🎁</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <div class="rating-text">(89 reviews)</div>
+                        </div>
+                        <h3 class="product-title">Bundle Deals Coming Soon</h3>
+                        <p class="product-description">Amazing combo offers with helmets, protective gear, and accessories. Perfect for complete safety package.</p>
+                        <div class="product-price">From $55.00</div>
+                        <button class="add-to-cart-btn" style="background: #94a3b8; cursor: not-allowed;">Notify Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🛒</div>
+                    <h3 class="feature-title">Free Shipping</h3>
+                    <p class="feature-description">On all orders over $50</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Easy Returns</h3>
+                    <p class="feature-description">30-day return policy</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Secure Payments</h3>
+                    <p class="feature-description">100% secure checkout</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Adarsh</h3>
+                    <p class="footer-description">We offer high-quality products at the best prices. Shop with confidence with our 30-day money-back guarantee.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Shop</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Deals & Promotions</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Help</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Information</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="contact-info">
+                        <p>IIT Jodhpur</p>
+                        <p>Delhi, Dwarka Sector 125</p>
+                        <p>adarshkumariitj@gmail.com</p>
+                        <p>+91-8210306799</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="payment-info">
+                        <span class="payment-icon">💳</span>
+                        <span>We accept all major credit cards</span>
+                    </div>
+                    <div class="security-info">
+                        <span class="security-icon">🔒</span>
+                        <span>Secure payments & data protection</span>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2025 Adarsh. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
