@@ -4,7 +4,7 @@ A stylish, responsive, and interactive landing page for **Happit** – an online
 
 ## 🌐 Live Demo
 
-🔗 [View Website](https://adarsh8114.github.io/happit-website/)
+🔗 [View Website](https://happit-website-gt64.vercel.app/)
 
 ## 📁 Project Structure
 
